@@ -21,7 +21,8 @@ html {
 
 .header {
     margin-top: 30px;
-    width: 590px;
+    width: 100%;
+    max-width: 590px;
 }
 
 mark {
@@ -29,7 +30,8 @@ mark {
     }
 
 .container {
-    width: 590px;
+    width: 100%;
+    max-width: 590px;
     margin: auto;
     padding: 0 0.2px;
 }
@@ -44,7 +46,8 @@ mark {
 }
 
 .container .demo-card-wide.mdl-card {
-    width: 590px;
+    width: 100%;
+    max-width: 590px;
     margin-top: 1em;
 }
 /*.demo-card-wide > .mdl-card__title {
