@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "RobotoSlabBold";
+  src: url("../fonts/RobotoSlab/RobotoSlab-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoSlabLight";
+  src: url("../fonts/RobotoSlab/RobotoSlab-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoSlabRegular";
+  src: url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoSlabThin";
+  src: url("../fonts/RobotoSlab/RobotoSlab-Thin.ttf") format("truetype"); }
+
+
+html {
+    background: #F1F1F2;
+}
+
+.header {
+    margin-top: 30px;
+    width: 590px;
+}
+
+mark {
+    padding: 2px;
+    }
+
+.container {
+    width: 590px;
+    margin: auto;
+    padding: 0 0.2px;
+}
+
+.mdl-card__title-text, .mdl-card__supporting-text {
+    font-family: RobotoSlabLight;
+}
+
+.mdl-card__supporting-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.container .demo-card-wide.mdl-card {
+    width: 590px;
+    margin-top: 1em;
+}
+/*.demo-card-wide > .mdl-card__title {
+    color: #000;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+}*/
+
+
+.container > .mdl-card:last-child {
+    margin-bottom: 0.5em;
+}
