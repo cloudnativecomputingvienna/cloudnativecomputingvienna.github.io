@@ -50,7 +50,7 @@
 	  </div>
 	  <div class="mdl-card__supporting-text" style=" color: white; background: #444; width:100%;">
 	    <p style="padding-right:30px;">
-	      So far, only the keynote has been made official. Please come back in the future for an up to date schedule.</p>
+	      The schedule is not finished yet. Come back to see what additional talks have been added.</p>
 	  </div>
 	  <div class="mdl-card__title">
 	    <h2 class="mdl-card__title-text ">
@@ -58,10 +58,107 @@
 	    </h2>
 	  </div>
 	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
-	    <a href="https://vlkan.com/">Volkan Yazici</a>
+	    <a href="https://bol.com/">Volkan Yazici - bol.com</a>
 	  </div>
 	  <div class="mdl-card__supporting-text ">
-	      The biggest e-commerce company in the Netherlands and Belgium, bol.com, set out on a 4 year journey to rethink and rebuild their entire ETL (Extract, Transform, Load) pipeline, that has been cooking up the data used by its search engine since the dawn of time. This more than a decade old white-bearded giant, breathing in the dungeons of shady Oracle PL/SQL hacks, was in a state of decay, causing ever increasing hiccups on production. A rewrite was inevitable. After drafting many blueprints, we went for a Java service backed by Elasticsearch as the primary storage! This idea brought shivers to even the most senior Elasticsearch consultants hired, so to ease your mind I’ll walk you through why we took such a radical approach and how we managed to escape our legacy.
+	      <p>The biggest e-commerce company in the Netherlands and Belgium, bol.com, set out on a 4 year journey to rethink and rebuild their entire ETL (Extract, Transform, Load) pipeline, that has been cooking up the data used by its search engine since the dawn of time. This more than a decade old white-bearded giant, breathing in the dungeons of shady Oracle PL/SQL hacks, was in a state of decay, causing ever increasing hiccups on production. A rewrite was inevitable. After drafting many blueprints, we went for a Java service backed by Elasticsearch as the primary storage! This idea brought shivers to even the most senior Elasticsearch consultants hired, so to ease your mind I’ll walk you through why we took such a radical approach and how we managed to escape our legacy.</p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      Jupyter Ecosystem: State of the Union
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://www.ibm.com/at-de/">Romeo Kienzler - IBM</a><br>
+	    <a href="https://www.ibm.com/at-de/">Alan K Chin - IBM</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	      <p>The Jupyter Notebook Stack has become the "de facto" platform used by scientists to build interactive applications to tackle scientific and machine learning problems. In this session, we will explore the different projects that compose the Jupyter ecosystem, including JupyterHub, Jupyter Notebook classic and JupyterLab, discuss their purposes, directions and provide live demos to showcase the user experience of these projects. We will also address some existing limitations of the platform, and how combining different components together can help you overcome these existing issues such as scalability, end-to-end security, sharing of resources such as GPU.</p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      Flexible ML Pipelines (with Kubeflow)
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://cloud.google.com/">Hermann Wagner - Google</a>
+	    <br>
+	    <a href="https://cloud.google.com/">Yuriy Babenko - Google</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	      <p>With more than 2000 open source projects Google has been a contributor to the open source community for a long time. While some of the Open Source projects we contribute are dedicated to AI and ML (like Tensorflow, Deepmind Lab and Kubeflow), others are focused on Apps, Infrastructure and CICD (like Kubernetes, Istio and Spinnaker).</p>
+	      <p>
+		At Google Cloud we are now trying to combine some of those technologies to tackle the following 3 big AI-related customer needs we see at the moment:
+	      </p>
+	      <p>
+		Finding AI/ML talent. Only a very small number of all SW developers are able to create a custom ML model.
+	      </p>
+	      <p>
+		Standardization and sharing. The market is fragmented without standard ways to build and define ML workflows. There exists no standard way to share your ML work with the rest of your organization either.
+	      </p>
+	      <p>
+	        Efficiency. 80% effort of a typical ML workflow or project is spent on non-ML tasks, dealing with the lifecycle management of ML workflow.
+	      </p>
+              <p>
+                This is why we are building an end-to-end ecosystem to standardize ML and enable acceleration of AI development. We want to enable you to (1) build upon the work of others by sharing data, models and experiments across your organization and outside, (2) easily access your companies data sources, (3) provision (ML) infrastructure on-demand and with no infrastructure management needed, (4) build powerful ML workflows to simplify and accelerate your model creation and deployment.
+		In the talk we will show you in a real world scenario how you can use and combine Open Source Software, like Kubernetes, Istio, Kubeflow, Tensorflow, et cetera, to improve your agility, efficiency and time to market when you build the products and services of tomorrow.
+	      </p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      Cloud Native and mission critical applications: challenges and opportunities
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://home.cern">Andrea Calia - CERN</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	    <p>CERN is the European Organization for Nuclear Research and part of its mission is to give an answer to questions like: What is the nature of our universe? In order to study even the most minute bit of the matter, a particle accelerator complex is built to accommodate a variety of experiments.</p>
+	    <p>The biggest accelerator is the Large Hadron Collider (LHC) that was able to produce the collisions that led to the discovery of the Higgs boson in 2012. The LHC can count with a sophisticated software infrastructure that is able to control each hardware device of the machine as well as providing the controls tools to the machine’s operators. Today, all the servers that are needed for operations are deployed on bare machines running a customized Linux distribution. In the view of taking advantage of the new cloud infrastructures available today, a Kubernetes prototype cluster has been setup to assess the viability of such container orchestration tools in CERN operational scenarios: high availability, fault tolerance, easy intervention, fast rollback and long term maintenance.</p>
+	    <p>In this talk, some preliminary results will be presented along with considerations on the usage of container orchestration solutions in mission-critical systems.
+	    </p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      The Cloud Native Journey for Big Data
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://www.cloudera.com/">Marcel Dappen - Cloudera</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	    <p>Since the beginning of a distributed big data environment like Hadoop a little over a decade ago, the technology has been steadily improving. Memory and compute power have become much cheaper, but also the bandwidth has improved by several factors. We need all this technological innovation to handle the predicted 44 zettabytes of data by 2020. Most of the major trend such as cloud, containers, streaming, Machine learning & AI, and the Internet of Things (IoT) have direct impact on the next generation of the big data landscape - therefore we have to revise old design paradigms that make this shift possible.
+	    </p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      Service Assurance 2020
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://www.a1.net/">Jürgen Moser - A1</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	    <p>Telco Companies are transforming to IT Companies, so does A1. A1 is the leading Service Provider and IT Outsourcing Partner in Austria and other European countries. The Service Assurance Domain in A1 guarantees the Service Quality and Customer Satisfaction.
+	    </p>
+	    <p>
+	      In this session you will learn how we disrupt the Service Assurance legacy architecture with a new stack based on open source software, and move from data silos to a data centric approach.
+	    </p>
+	    <p>
+	      Uncaged data is the bases to new possibilities like machine learning.
+	    </p>
+	  </div>
+	  <div class="mdl-card__title">
+	    <h2 class="mdl-card__title-text ">
+	      Scaling your Python interactive applications with Jupyter
+	    </h2>
+	  </div>
+	  <div class="mdl-card__supporting-text" style="margin-top: -30px;">
+	    <a href="https://www.ibm.com/at-de/">Romeo Kienzler - IBM</a><br>
+	    <a href="https://www.ibm.com/at-de/">Alan K Chin - IBM</a>
+	  </div>
+	  <div class="mdl-card__supporting-text ">
+	       <p>Jupyter Notebooks have become the "de facto" platform used by scientists and engineers to build Python interactive applications to tackle scientific and machine learning problems. However, with the popularity of big data analytics and complex deep learning workloads, there is a growing requirement to extend the computation across a cluster of computers in a parallel fashion. In this talk, we will describe how to use multiple Jupyter Notebook components to enable the orchestration and distribution of interactive machine learning and deep learning workloads across different types of computing clusters including Apache Spark and Kubernetes. This talk is intended to attendees interested in distributed platforms and scientists experiencing difficulties on scaling their scientific workloads across multiple machines.</p>
 	  </div>
         </div>
  <div class="mdl-card mdl-shadow--4dp demo-card-wide">
